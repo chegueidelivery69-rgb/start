@@ -23,10 +23,34 @@ dependencies:
   uuid: ^4.5.1
   path: ^1.9.0
 
-  flutter:
+  # Storage
+  shared_preferences: ^2.5.2
+
+  # Localization
+  flutter_localizations:
+    sdk: flutter
+
+  # State Management
+  bloc: ^9.0.0
+  flutter_bloc: ^9.0.0
+
+  # UI / Utils
+  google_fonts: ^6.2.1
+  fluttertoast: ^8.2.12
+  flutter_svg: ^2.0.17
+  cached_network_image: ^3.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
 
   uses-material-design: true
 
+  # Enable code generation for l10n
   generate: true
 
   assets:
@@ -34,8 +58,3 @@ dependencies:
     - assets/images/
     - assets/svg/
     - assets/audio/
-
-
-  # Storage
-  shared_preferences: ^2.5.2
- 
