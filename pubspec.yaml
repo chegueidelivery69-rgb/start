@@ -23,6 +23,19 @@ dependencies:
   uuid: ^4.5.1
   path: ^1.9.0
 
+  flutter:
+
+  uses-material-design: true
+
+  generate: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/svg/
+    - assets/audio/
+
+
   # Storage
   shared_preferences: ^2.5.2
  
